@@ -1,0 +1,177 @@
+
+
+================================================================
+== Vitis HLS Report for 'image_filter'
+================================================================
+* Date:           Wed Nov  5 08:17:22 2025
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        hls_ip
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu1cg-sbva484-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.305 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_186_1  |        ?|        ?|         ?|          -|          -|  1081|        no|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 6
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 2 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.48>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%row = alloca i32 1" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183]   --->   Operation 7 'alloca' 'row' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i80 %output_r, void @empty_5, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i80 %input_r, void @empty_5, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.48ns)   --->   "%store_ln183 = store i11 0, i11 %row" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183]   --->   Operation 10 'store' 'store_ln183' <Predicate = true> <Delay = 0.48>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%br_ln186 = br void %VITIS_LOOP_188_2" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:186]   --->   Operation 11 'br' 'br_ln186' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 2.69>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%row_2 = load i11 %row" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 12 'load' 'row_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.94ns)   --->   "%cmp4 = icmp_eq  i11 %row_2, i11 1080" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 13 'icmp' 'cmp4' <Predicate = true> <Delay = 0.94> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 14 [1/1] (0.94ns)   --->   "%cmp = icmp_ne  i11 %row_2, i11 0" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 14 'icmp' 'cmp' <Predicate = true> <Delay = 0.94> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%empty = wait i32 @_ssdm_op_Wait"   --->   Operation 15 'wait' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [2/2] (1.75ns)   --->   "%call_ln219 = call void @image_filter_Pipeline_VITIS_LOOP_188_2, i80 %input_r, i1 %cmp, i11 %row_2, i1 %cmp4, i80 %output_r, i10 %window_adjust_0_0_0, i10 %window_adjust_0_2_0, i10 %window_adjust_1_0_0, i10 %window_adjust_1_2_0, i10 %window_adjust_2_0_0, i10 %window_adjust_2_2_0, i10 %window_adjust_0_0_1, i10 %window_adjust_0_2_1, i10 %window_adjust_1_0_1, i10 %window_adjust_1_2_1, i10 %window_adjust_2_0_1, i10 %window_adjust_2_2_1, i10 %window_adjust_0_0_2, i10 %window_adjust_0_2_2, i10 %window_adjust_1_0_2, i10 %window_adjust_1_2_2, i10 %window_adjust_2_0_2, i10 %window_adjust_2_2_2, i10 %window_adjust_0_0_3, i10 %window_adjust_0_2_3, i10 %window_adjust_1_0_3, i10 %window_adjust_1_2_3, i10 %window_adjust_2_0_3, i10 %window_adjust_2_2_3, i10 %window_adjust_0_0_4, i10 %window_adjust_0_2_4, i10 %window_adjust_1_0_4, i10 %window_adjust_1_2_4, i10 %window_adjust_2_0_4, i10 %window_adjust_2_2_4, i10 %window_adjust_0_0_5, i10 %window_adjust_0_2_5, i10 %window_adjust_1_0_5, i10 %window_adjust_1_2_5, i10 %window_adjust_2_0_5, i10 %window_adjust_2_2_5, i10 %window_adjust_0_0_6, i10 %window_adjust_0_2_6, i10 %window_adjust_1_0_6, i10 %window_adjust_1_2_6, i10 %window_adjust_2_0_6, i10 %window_adjust_2_2_6, i10 %window_adjust_0_0_7, i10 %window_adjust_0_2_7, i10 %window_adjust_1_0_7, i10 %window_adjust_1_2_7, i10 %window_adjust_2_0_7, i10 %window_adjust_2_2_7, i80 %linebuf_0_0, i80 %linebuf_1_0, i80 %linebuf_2_0, i80 %linebuf_1_1, i80 %linebuf_2_1, i80 %linebuf_0_1" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 16 'call' 'call_ln219' <Predicate = true> <Delay = 1.75> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 17 [1/2] (0.00ns)   --->   "%call_ln219 = call void @image_filter_Pipeline_VITIS_LOOP_188_2, i80 %input_r, i1 %cmp, i11 %row_2, i1 %cmp4, i80 %output_r, i10 %window_adjust_0_0_0, i10 %window_adjust_0_2_0, i10 %window_adjust_1_0_0, i10 %window_adjust_1_2_0, i10 %window_adjust_2_0_0, i10 %window_adjust_2_2_0, i10 %window_adjust_0_0_1, i10 %window_adjust_0_2_1, i10 %window_adjust_1_0_1, i10 %window_adjust_1_2_1, i10 %window_adjust_2_0_1, i10 %window_adjust_2_2_1, i10 %window_adjust_0_0_2, i10 %window_adjust_0_2_2, i10 %window_adjust_1_0_2, i10 %window_adjust_1_2_2, i10 %window_adjust_2_0_2, i10 %window_adjust_2_2_2, i10 %window_adjust_0_0_3, i10 %window_adjust_0_2_3, i10 %window_adjust_1_0_3, i10 %window_adjust_1_2_3, i10 %window_adjust_2_0_3, i10 %window_adjust_2_2_3, i10 %window_adjust_0_0_4, i10 %window_adjust_0_2_4, i10 %window_adjust_1_0_4, i10 %window_adjust_1_2_4, i10 %window_adjust_2_0_4, i10 %window_adjust_2_2_4, i10 %window_adjust_0_0_5, i10 %window_adjust_0_2_5, i10 %window_adjust_1_0_5, i10 %window_adjust_1_2_5, i10 %window_adjust_2_0_5, i10 %window_adjust_2_2_5, i10 %window_adjust_0_0_6, i10 %window_adjust_0_2_6, i10 %window_adjust_1_0_6, i10 %window_adjust_1_2_6, i10 %window_adjust_2_0_6, i10 %window_adjust_2_2_6, i10 %window_adjust_0_0_7, i10 %window_adjust_0_2_7, i10 %window_adjust_1_0_7, i10 %window_adjust_1_2_7, i10 %window_adjust_2_0_7, i10 %window_adjust_2_2_7, i80 %linebuf_0_0, i80 %linebuf_1_0, i80 %linebuf_2_0, i80 %linebuf_1_1, i80 %linebuf_2_1, i80 %linebuf_0_1" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 17 'call' 'call_ln219' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 1.41>
+ST_4 : Operation 18 [1/1] (0.00ns)   --->   "%empty_47 = wait i32 @_ssdm_op_Wait"   --->   Operation 18 'wait' 'empty_47' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 19 [3/3] (1.41ns)   --->   "%tmp_56 = call i80 @shift_register, i11 %row_2, i80 %linebuf_0_0, i80 %linebuf_0_1, i80 %linebuf_1_0, i80 %linebuf_1_1, i80 %linebuf_2_0, i80 %linebuf_2_1, i10 %window_adjust_0_0_0, i10 %window_adjust_1_0_0, i10 %window_adjust_2_0_0, i10 %window_adjust_0_0_1, i10 %window_adjust_1_0_1, i10 %window_adjust_2_0_1, i10 %window_adjust_0_0_2, i10 %window_adjust_1_0_2, i10 %window_adjust_2_0_2, i10 %window_adjust_0_0_3, i10 %window_adjust_1_0_3, i10 %window_adjust_2_0_3, i10 %window_adjust_0_0_4, i10 %window_adjust_1_0_4, i10 %window_adjust_2_0_4, i10 %window_adjust_0_0_5, i10 %window_adjust_1_0_5, i10 %window_adjust_2_0_5, i10 %window_adjust_0_0_6, i10 %window_adjust_1_0_6, i10 %window_adjust_2_0_6, i10 %window_adjust_0_0_7, i10 %window_adjust_1_0_7, i10 %window_adjust_2_0_7, i10 %window_adjust_0_2_0, i10 %window_adjust_1_2_0, i10 %window_adjust_2_2_0, i10 %window_adjust_0_2_1, i10 %window_adjust_1_2_1, i10 %window_adjust_2_2_1, i10 %window_adjust_0_2_2, i10 %window_adjust_1_2_2, i10 %window_adjust_2_2_2, i10 %window_adjust_0_2_3, i10 %window_adjust_1_2_3, i10 %window_adjust_2_2_3, i10 %window_adjust_0_2_4, i10 %window_adjust_1_2_4, i10 %window_adjust_2_2_4, i10 %window_adjust_0_2_5, i10 %window_adjust_1_2_5, i10 %window_adjust_2_2_5, i10 %window_adjust_0_2_6, i10 %window_adjust_1_2_6, i10 %window_adjust_2_2_6, i10 %window_adjust_0_2_7, i10 %window_adjust_1_2_7, i10 %window_adjust_2_2_7" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213]   --->   Operation 19 'call' 'tmp_56' <Predicate = true> <Delay = 1.41> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 4.13>
+ST_5 : Operation 20 [2/3] (4.13ns)   --->   "%tmp_56 = call i80 @shift_register, i11 %row_2, i80 %linebuf_0_0, i80 %linebuf_0_1, i80 %linebuf_1_0, i80 %linebuf_1_1, i80 %linebuf_2_0, i80 %linebuf_2_1, i10 %window_adjust_0_0_0, i10 %window_adjust_1_0_0, i10 %window_adjust_2_0_0, i10 %window_adjust_0_0_1, i10 %window_adjust_1_0_1, i10 %window_adjust_2_0_1, i10 %window_adjust_0_0_2, i10 %window_adjust_1_0_2, i10 %window_adjust_2_0_2, i10 %window_adjust_0_0_3, i10 %window_adjust_1_0_3, i10 %window_adjust_2_0_3, i10 %window_adjust_0_0_4, i10 %window_adjust_1_0_4, i10 %window_adjust_2_0_4, i10 %window_adjust_0_0_5, i10 %window_adjust_1_0_5, i10 %window_adjust_2_0_5, i10 %window_adjust_0_0_6, i10 %window_adjust_1_0_6, i10 %window_adjust_2_0_6, i10 %window_adjust_0_0_7, i10 %window_adjust_1_0_7, i10 %window_adjust_2_0_7, i10 %window_adjust_0_2_0, i10 %window_adjust_1_2_0, i10 %window_adjust_2_2_0, i10 %window_adjust_0_2_1, i10 %window_adjust_1_2_1, i10 %window_adjust_2_2_1, i10 %window_adjust_0_2_2, i10 %window_adjust_1_2_2, i10 %window_adjust_2_2_2, i10 %window_adjust_0_2_3, i10 %window_adjust_1_2_3, i10 %window_adjust_2_2_3, i10 %window_adjust_0_2_4, i10 %window_adjust_1_2_4, i10 %window_adjust_2_2_4, i10 %window_adjust_0_2_5, i10 %window_adjust_1_2_5, i10 %window_adjust_2_2_5, i10 %window_adjust_0_2_6, i10 %window_adjust_1_2_6, i10 %window_adjust_2_2_6, i10 %window_adjust_0_2_7, i10 %window_adjust_1_2_7, i10 %window_adjust_2_2_7" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213]   --->   Operation 20 'call' 'tmp_56' <Predicate = true> <Delay = 4.13> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 6.30>
+ST_6 : Operation 21 [1/1] (0.00ns)   --->   "%specpipeline_ln187 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_6" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:187]   --->   Operation 21 'specpipeline' 'specpipeline_ln187' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 22 [1/1] (0.00ns)   --->   "%speclooptripcount_ln183 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 1081, i64 1081, i64 1081" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183]   --->   Operation 22 'speclooptripcount' 'speclooptripcount_ln183' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 23 [1/1] (0.00ns)   --->   "%specloopname_ln186 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:186]   --->   Operation 23 'specloopname' 'specloopname_ln186' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 24 [1/1] (0.94ns)   --->   "%row_3 = add i11 %row_2, i11 1" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219]   --->   Operation 24 'add' 'row_3' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.94> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 25 [1/3] (4.13ns)   --->   "%tmp_56 = call i80 @shift_register, i11 %row_2, i80 %linebuf_0_0, i80 %linebuf_0_1, i80 %linebuf_1_0, i80 %linebuf_1_1, i80 %linebuf_2_0, i80 %linebuf_2_1, i10 %window_adjust_0_0_0, i10 %window_adjust_1_0_0, i10 %window_adjust_2_0_0, i10 %window_adjust_0_0_1, i10 %window_adjust_1_0_1, i10 %window_adjust_2_0_1, i10 %window_adjust_0_0_2, i10 %window_adjust_1_0_2, i10 %window_adjust_2_0_2, i10 %window_adjust_0_0_3, i10 %window_adjust_1_0_3, i10 %window_adjust_2_0_3, i10 %window_adjust_0_0_4, i10 %window_adjust_1_0_4, i10 %window_adjust_2_0_4, i10 %window_adjust_0_0_5, i10 %window_adjust_1_0_5, i10 %window_adjust_2_0_5, i10 %window_adjust_0_0_6, i10 %window_adjust_1_0_6, i10 %window_adjust_2_0_6, i10 %window_adjust_0_0_7, i10 %window_adjust_1_0_7, i10 %window_adjust_2_0_7, i10 %window_adjust_0_2_0, i10 %window_adjust_1_2_0, i10 %window_adjust_2_2_0, i10 %window_adjust_0_2_1, i10 %window_adjust_1_2_1, i10 %window_adjust_2_2_1, i10 %window_adjust_0_2_2, i10 %window_adjust_1_2_2, i10 %window_adjust_2_2_2, i10 %window_adjust_0_2_3, i10 %window_adjust_1_2_3, i10 %window_adjust_2_2_3, i10 %window_adjust_0_2_4, i10 %window_adjust_1_2_4, i10 %window_adjust_2_2_4, i10 %window_adjust_0_2_5, i10 %window_adjust_1_2_5, i10 %window_adjust_2_2_5, i10 %window_adjust_0_2_6, i10 %window_adjust_1_2_6, i10 %window_adjust_2_2_6, i10 %window_adjust_0_2_7, i10 %window_adjust_1_2_7, i10 %window_adjust_2_2_7" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213]   --->   Operation 25 'call' 'tmp_56' <Predicate = true> <Delay = 4.13> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 26 [1/1] (0.00ns)   --->   "%br_ln214 = br i1 %cmp, void %do.cond21, void %if.then18" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:214]   --->   Operation 26 'br' 'br_ln214' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 27 [1/1] (2.16ns)   --->   "%write_ln216 = write void @_ssdm_op_Write.ap_fifo.volatile.i80P0A, i80 %output_r, i80 %tmp_56" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:216]   --->   Operation 27 'write' 'write_ln216' <Predicate = (cmp)> <Delay = 2.16> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 80> <Depth = 2> <FIFO>
+ST_6 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln217 = br void %do.cond21" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:217]   --->   Operation 28 'br' 'br_ln217' <Predicate = (cmp)> <Delay = 0.00>
+ST_6 : Operation 29 [1/1] (0.48ns)   --->   "%store_ln183 = store i11 %row_3, i11 %row" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183]   --->   Operation 29 'store' 'store_ln183' <Predicate = true> <Delay = 0.48>
+ST_6 : Operation 30 [1/1] (0.00ns)   --->   "%br_ln220 = br i1 %cmp4, void %VITIS_LOOP_188_2, void %do.end23" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:220]   --->   Operation 30 'br' 'br_ln220' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln222 = ret" [/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:222]   --->   Operation 31 'ret' 'ret_ln222' <Predicate = (cmp & cmp4)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.489ns
+The critical path consists of the following:
+	'alloca' operation 11 bit ('row', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183) [57]  (0.000 ns)
+	'store' operation 0 bit ('store_ln183', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183) of constant 0 on local variable 'row', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183 [60]  (0.489 ns)
+
+ <State 2>: 2.698ns
+The critical path consists of the following:
+	'load' operation 11 bit ('row', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219) on local variable 'row', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183 [63]  (0.000 ns)
+	'icmp' operation 1 bit ('cmp4', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219) [67]  (0.948 ns)
+	'call' operation 0 bit ('call_ln219', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219) to 'image_filter_Pipeline_VITIS_LOOP_188_2' [71]  (1.750 ns)
+
+ <State 3>: 0.000ns
+The critical path consists of the following:
+
+ <State 4>: 1.418ns
+The critical path consists of the following:
+	'call' operation 80 bit ('tmp_56', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213) to 'shift_register' [73]  (1.418 ns)
+
+ <State 5>: 4.138ns
+The critical path consists of the following:
+	'call' operation 80 bit ('tmp_56', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213) to 'shift_register' [73]  (4.138 ns)
+
+ <State 6>: 6.305ns
+The critical path consists of the following:
+	'call' operation 80 bit ('tmp_56', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:213) to 'shift_register' [73]  (4.138 ns)
+	fifo write operation ('write_ln216', /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:216) on port 'output_r' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:216) [76]  (2.167 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

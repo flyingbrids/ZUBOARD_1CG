@@ -1,0 +1,88 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2 1 4",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 224,
+    "instructions": 19,
+    "name": "conv2d_3x3",
+    "total_instructions": 2228
+  },
+  "1": {
+    "basicblocks": 15,
+    "calls": "5 5 5",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 181,
+    "instructions": 54,
+    "loads": {
+      "L": 3
+    },
+    "name": "image_filter",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2016
+  },
+  "2": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 128,
+    "instructions": 94,
+    "loads": {
+      "L": 10
+    },
+    "name": "data_unpacket",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 114
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 26,
+    "instructions": 375,
+    "loads": {
+      "G": 48
+    },
+    "name": "sobelConvolve",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 375
+  },
+  "4": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 153,
+    "instructions": 63,
+    "loads": {
+      "G": 1,
+      "L": 2
+    },
+    "name": "data_packet",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 79
+  },
+  "5": {
+    "basicblocks": 17,
+    "calls": "3",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 53,
+    "instructions": 279,
+    "loads": {
+      "G": 11,
+      "L": 1
+    },
+    "name": "shift_register",
+    "stores": {
+      "G": 147
+    },
+    "total_instructions": 654
+  }
+}

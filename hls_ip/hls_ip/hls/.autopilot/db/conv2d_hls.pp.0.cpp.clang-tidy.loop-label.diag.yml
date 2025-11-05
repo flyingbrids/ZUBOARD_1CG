@@ -1,0 +1,350 @@
+---
+MainSourceFile:  /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          713535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          941083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          941547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          942012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1225574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_1:  '
+    FileOffset:      122
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1630997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_126_2:  '
+    FileOffset:      126
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1631048
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_126_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1631380
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_2:  '
+    FileOffset:      170
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1631431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1631760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_214_2:  '
+    FileOffset:      214
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1631815
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_214_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_1:  '
+    FileOffset:      254
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1632142
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_2:  '
+    FileOffset:      258
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1632197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_1:  '
+    FileOffset:      330
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1632901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_1:  '
+    FileOffset:      435
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1633724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_1P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      711
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_1P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      716
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      721
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      726
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      731
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      736
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_T2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      741
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_T2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      746
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_824_1:  '
+    FileOffset:      824
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1638591
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_824_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_867_1:  '
+    FileOffset:      867
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1639076
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_867_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_968_1:  '
+    FileOffset:      968
+    FilePath:        /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1640378
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_968_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_1:  '
+    FileOffset:      32
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1642504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_35_2:  '
+    FileOffset:      35
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1642566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_35_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_3:  '
+    FileOffset:      38
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1642624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_67_1:  '
+    FileOffset:      67
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1643258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_67_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_94_2:  '
+    FileOffset:      94
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1643614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_94_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_97_3:  '
+    FileOffset:      97
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1643672
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_97_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1644120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_5:  '
+    FileOffset:      114
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1644178
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1644714
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1644778
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1644895
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1645341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_2:  '
+    FileOffset:      161
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1645391
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_3:  '
+    FileOffset:      167
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1645563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_1:  '
+    FileOffset:      186
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1646053
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_188_2:  '
+    FileOffset:      188
+    FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp
+    Replacements:    
+      - FilePath:        /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp
+        Offset:          1646080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_188_2: '
+...

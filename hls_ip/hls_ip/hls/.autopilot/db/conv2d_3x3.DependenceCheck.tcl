@@ -1,0 +1,30 @@
+
+
+set RtlHierarchyInfo {[
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST"},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0"},
+	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0.flow_control_loop_pipe_U"},
+	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0.regslice_both_data_in_V_data_V_U"},
+	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0.regslice_both_data_in_V_keep_V_U"},
+	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0.regslice_both_data_in_V_strb_V_U"},
+	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_unpacket_U0.regslice_both_data_in_V_last_V_U"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.image_filter_U0"},
+	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_0_0_U"},
+	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_1_0_U"},
+	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_2_0_U"},
+	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_1_1_U"},
+	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_2_1_U"},
+	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.linebuf_0_1_U"},
+	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.grp_image_filter_Pipeline_VITIS_LOOP_188_2_fu_159"},
+	{"ID" : "15", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.grp_image_filter_Pipeline_VITIS_LOOP_188_2_fu_159.flow_control_loop_pipe_sequential_init_U"},
+	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.grp_shift_register_fu_278"},
+	{"ID" : "17", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.image_filter_U0.grp_shift_register_fu_278.tmp_sobelConvolve_fu_242"},
+	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data_packet_U0"},
+	{"ID" : "19", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_packet_U0.flow_control_loop_pipe_U"},
+	{"ID" : "20", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_packet_U0.regslice_both_data_out_V_data_V_U"},
+	{"ID" : "21", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_packet_U0.regslice_both_data_out_V_keep_V_U"},
+	{"ID" : "22", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_packet_U0.regslice_both_data_out_V_strb_V_U"},
+	{"ID" : "23", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.data_packet_U0.regslice_both_data_out_V_last_V_U"},
+	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.input_r_U"},
+	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.output_r_U"}]}
+set DependenceCheckSize 0

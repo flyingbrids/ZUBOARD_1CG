@@ -1,0 +1,5 @@
+In file included from /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:4:
+/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:759:47: warning: 'factor' in '#pragma HLS array_reshape' is ignored [-Wextra-tokens]
+#pragma HLS ARRAY_RESHAPE variable=val factor=RESHAPE_FACTOR dim=1
+                                              ^
+1 warning generated.

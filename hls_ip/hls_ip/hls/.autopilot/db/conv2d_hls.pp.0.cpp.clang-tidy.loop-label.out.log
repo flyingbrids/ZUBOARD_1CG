@@ -1,0 +1,194 @@
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:25255:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:25255:7: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26229:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26229:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26243:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26243:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26257:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:26257:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:27886:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:27886:7: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30808:5: warning: Added loop label VITIS_LOOP_122_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_122_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30808:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30812:2: warning: Added loop label VITIS_LOOP_126_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS - 1; j++) {
+ ^~~
+ VITIS_LOOP_126_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30812:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30839:5: warning: Added loop label VITIS_LOOP_166_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_166_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30839:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30843:2: warning: Added loop label VITIS_LOOP_170_2:   [xilinx-label-all-loops]
+ for (j = COLS - 1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_170_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30843:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30870:5: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS - 1; i++) {
+    ^~~
+    VITIS_LOOP_210_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30870:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30874:2: warning: Added loop label VITIS_LOOP_214_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_214_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30874:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30901:5: warning: Added loop label VITIS_LOOP_254_1:   [xilinx-label-all-loops]
+    for (i = ROWS - 1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_254_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30901:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30905:2: warning: Added loop label VITIS_LOOP_258_2:   [xilinx-label-all-loops]
+ for (j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_258_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30905:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30951:5: warning: Added loop label VITIS_LOOP_330_1:   [xilinx-label-all-loops]
+    for (j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_330_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:30951:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31014:5: warning: Added loop label VITIS_LOOP_435_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_435_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31014:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31211:44: error: Invalid Directive: for current device, RAM_1P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_1P impl=BRAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31216:44: error: Invalid Directive: for current device, RAM_1P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_1P impl=URAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31221:44: error: Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_2P impl=BRAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31226:44: error: Invalid Directive: for current device, RAM_2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_2P impl=URAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31231:44: error: Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_S2P impl=BRAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31236:44: error: Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_S2P impl=URAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31241:44: error: Invalid Directive: for current device, RAM_T2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_T2P impl=BRAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31246:44: error: Invalid Directive: for current device, RAM_T2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=val type=RAM_T2P impl=URAM
+                                           ^
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31302:5: warning: Added loop label VITIS_LOOP_824_1:   [xilinx-label-all-loops]
+    for (i = ROWS - 1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_824_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31302:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31328:5: warning: Added loop label VITIS_LOOP_867_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS - 1; i++) {
+    ^~~
+    VITIS_LOOP_867_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31328:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31384:5: warning: Added loop label VITIS_LOOP_968_1:   [xilinx-label-all-loops]
+    for (i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_968_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31384:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31484:5: warning: Added loop label VITIS_LOOP_32_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < 8; k++)
+    ^~~
+    VITIS_LOOP_32_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31484:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31487:9: warning: Added loop label VITIS_LOOP_35_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++)
+        ^~~
+        VITIS_LOOP_35_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31487:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31490:2: warning: Added loop label VITIS_LOOP_38_3:   [xilinx-label-all-loops]
+ for (int j = 0; j < 3; j++)
+ ^~~
+ VITIS_LOOP_38_3: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31490:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31519:9: warning: Added loop label VITIS_LOOP_67_1:   [xilinx-label-all-loops]
+        for (int i=0; i<3; i++)
+        ^~~
+        VITIS_LOOP_67_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31519:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31526:13: warning: Added loop label VITIS_LOOP_94_2:   [xilinx-label-all-loops]
+            for (int j=0; j<3; j++)
+            ^~~
+            VITIS_LOOP_94_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31526:13: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31529:2: warning: Added loop label VITIS_LOOP_97_3:   [xilinx-label-all-loops]
+ for (int k =0; k<8; k++)
+ ^~~
+ VITIS_LOOP_97_3: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31529:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31543:9: warning: Added loop label VITIS_LOOP_111_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < 3; j++)
+        ^~~
+        VITIS_LOOP_111_4: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31543:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31546:2: warning: Added loop label VITIS_LOOP_114_5:   [xilinx-label-all-loops]
+ for (int k = 0; k < 8; k++)
+ ^~~
+ VITIS_LOOP_114_5: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31546:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31566:5: warning: Added loop label VITIS_LOOP_134_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < 324000; i= i+5)
+    ^~~
+    VITIS_LOOP_134_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31566:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31569:2: warning: Added loop label VITIS_LOOP_137_2:   [xilinx-label-all-loops]
+ for (int j=0; j < 5; j++)
+ ^~~
+ VITIS_LOOP_137_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31569:2: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31573:9: warning: Added loop label VITIS_LOOP_141_3:   [xilinx-label-all-loops]
+        for (int k=0; k < 4; k++)
+        ^~~
+        VITIS_LOOP_141_3: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31573:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31591:5: warning: Added loop label VITIS_LOOP_159_1:   [xilinx-label-all-loops]
+    for (int i=0; i<1080*1920/8; i=i+4)
+    ^~~
+    VITIS_LOOP_159_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31591:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31593:9: warning: Added loop label VITIS_LOOP_161_2:   [xilinx-label-all-loops]
+        for (int k=0; k < 4; k++)
+        ^~~
+        VITIS_LOOP_161_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31593:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31599:9: warning: Added loop label VITIS_LOOP_167_3:   [xilinx-label-all-loops]
+        for (int j=0; j < 5; j++)
+        ^~~
+        VITIS_LOOP_167_3: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31599:9: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31618:5: warning: Added loop label VITIS_LOOP_186_1:   [xilinx-label-all-loops]
+    do {
+    ^~
+    VITIS_LOOP_186_1: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31618:5: note: FIX-IT applied suggested code changes
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31620:2: warning: Added loop label VITIS_LOOP_188_2:   [xilinx-label-all-loops]
+ do{
+ ^~
+ VITIS_LOOP_188_2: 
+/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/.autopilot/db/conv2d_hls.pp.0.cpp:31620:2: note: FIX-IT applied suggested code changes

@@ -1,0 +1,1573 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 19, Column: 39 }
+Function:        __cxx_global_var_init
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 698, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          __cxx_global_var_init
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 19, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                   Line: 1018, Column: 2 }
+Function:        _ZN2xf2cv10LineBufferILi3ELi240E7ap_uintILi80EEL8_ramtype6ELi1EE8shift_upEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::shift_pixels_up(int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 854, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::shift_up(int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 1014, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 60, Column: 17 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::shift_up(int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 1014, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 61, Column: 17 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::insert_bottom_row(ap_uint<80>, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 896, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 93, Column: 82 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::getval(int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 979, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 93, Column: 51 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::getval(int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 979, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 92, Column: 34 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::getval(int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 979, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 91, Column: 58 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::getval(int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 979, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 91, Column: 35 }
+Function:        _Z14shift_register7ap_uintILi80EEii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::getval(int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                       Line: 979, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'shift_register(ap_uint<80>, int, int)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                   Line: 755, Column: 9 }
+Function:        __cxx_global_var_init
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 111, Column: 27 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_111_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 114, Column: 20 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_114_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 67, Column: 26 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_67_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 94, Column: 30 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_94_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 97, Column: 19 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp, 
+                   Line: 867, Column: 23 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_867_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 32, Column: 22 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_32_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 35, Column: 26 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 38, Column: 19 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 137, Column: 20 }
+Function:        _Z13data_unpacketRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_137_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 141, Column: 27 }
+Function:        _Z13data_unpacketRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_141_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_111_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:111:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_114_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_114_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_114_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_67_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:67:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_94_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_94_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_94_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 54, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_867_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:867:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          shift_register
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_32_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:32:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_35_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 27, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_38_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          sobelConvolve
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 129, Column: 0 }
+Function:        _Z13data_unpacketRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_137_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:137:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          data_unpacket
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 129, Column: 0 }
+Function:        _Z13data_unpacketRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_141_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:141:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          data_unpacket
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 21, Column: 0 }
+Function:        _Z13sobelConvolvev.6
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          window_adjust
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '3'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 22, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          window
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '3'
+  - String:          .
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          ' '
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:188:20'
+  - String:          ' '
+  - Function:        'image_filter(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 182, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          '''('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:188:20'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 192, Column: 28 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'shift_register(ap_uint<80>, int, int) (.3)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'image_filter(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 182, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 202, Column: 26 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'shift_register(ap_uint<80>, int, int) (.3)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'image_filter(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 182, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 125, Column: 12 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'sobelConvolve() (.6)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 27, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'image_filter(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 182, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 125, Column: 12 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'sobelConvolve() (.6)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 27, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'image_filter(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 182, Column: 0 }
+  - String:          ''''
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_159_1
+  - String:          '> at '
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:159:23'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 161, Column: 27 }
+Function:        _Z11data_packetRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_161_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 167, Column: 27 }
+Function:        _Z11data_packetRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_167_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 154, Column: 0 }
+Function:        _Z11data_packetRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_161_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:161:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          data_packet
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 154, Column: 0 }
+Function:        _Z11data_packetRN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_IS2_ILi80EELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_167_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:167:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          data_packet
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 19, Column: 0 }
+Function:        _Z10conv2d_3x3RN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=linebuf'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  conv2d_3x3
+  - String:          ' '
+  - varLoc:          '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 189, Column: 9 }
+  - VarName:         linebuf
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 189, Column: 9 }
+Function:        _Z10conv2d_3x3RN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            linebuf
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 19, Column: 0 }
+Function:        _Z10conv2d_3x3RN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=2 type=cyclic factor=2 variable=linebuf'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  conv2d_3x3
+  - String:          ' '
+  - varLoc:          '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9'
+    DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                       Line: 189, Column: 9 }
+  - VarName:         linebuf
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 189, Column: 9 }
+Function:        _Z10conv2d_3x3RN3hls6streamINS_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEES6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '2'
+  - String:          ''' for array '''
+  - Name:            linebuf
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 19, Column: 0 }
+Function:        _Z14shift_register7ap_uintILi80EEii.3
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp, 
+                   Line: 188, Column: 20 }
+Function:        _Z12image_filterRN3hls6streamI7ap_uintILi80EELi0EEES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_188_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...

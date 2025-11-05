@@ -1,0 +1,64 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls_ip.hlsrun_package_summary, at Wed Nov  5 08:26:42 2025
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip -config /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg -cmdlineconfig /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /media/leon/Extend/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/media/leon/Extend/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'leon' on host 'ubuntu' (Linux_x86_64 version 5.15.0-139-generic) on Wed Nov 05 08:26:43 PST 2025
+INFO: [HLS 200-10] On os Ubuntu 20.04.6 LTS
+INFO: [HLS 200-10] In directory '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip'
+INFO: [HLS 200-1909] Reading HLS ini file /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip 
+INFO: [HLS 200-1510] Running: open_project /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.h' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.cflags=-I/home/leon/Desktop/Vitis_Libraries/vision/L1/include -I/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'syn.csimflags=-I/home/leon/Desktop/Vitis_Libraries/vision/L1/include -I/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls_testbench.cpp' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file '/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls_testbench.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=conv2d_3x3' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu1cg-sbva484-1-e' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu1cg-sbva484-1-e'
+INFO: [HLS 200-1465] Applying ini 'clock=100MHz' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_ip/hls/config.cmdline
+INFO: [HLS 200-1510] Running: export_design -flow none 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/leon/Extend/Vivado/2023.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  5 08:26:54 2025...
+INFO: [HLS 200-802] Generated output file hls_ip/conv2d_3x3.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 7.73 seconds. CPU system time: 1.41 seconds. Elapsed time: 13.29 seconds; current allocated memory: 8.973 MB.
+INFO: [HLS 200-1510] Running: close_project 
+INFO: [HLS 200-112] Total CPU user time: 8.79 seconds. Total CPU system time: 1.61 seconds. Total elapsed time: 14.42 seconds; peak allocated memory: 226.605 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Wed Nov  5 08:26:57 2025...
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 17s

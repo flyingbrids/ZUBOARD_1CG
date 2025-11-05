@@ -1,0 +1,3 @@
+relativeroot=/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip
+original_argv=--mode hls --package --config /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/hls_config.cfg --work_dir hls_ip 
+

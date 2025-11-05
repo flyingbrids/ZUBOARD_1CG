@@ -1,0 +1,4 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:188:20" msg_id="214-252" msg_severity="INFO" msg_body="Could not analyze the loop bounds" resolution="214-252" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:188:20" LoopName="VITIS_LOOP_188_2" ParentFunc="image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)"/>
+</VitisHLS:BurstInfo>
+

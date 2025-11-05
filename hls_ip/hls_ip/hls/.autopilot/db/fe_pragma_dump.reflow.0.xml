@@ -1,0 +1,112 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::RType<32, true>::plus operator+<80, false, 32, true>(ap_int_base<80, false> const&, ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<82, true>::ap_int_base<80, false>(ap_int_base<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<82, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<80>::ap_uint<82>(ap_int<82> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::ap_int_base<82, true>(ap_int_base<82, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi80ELb0EEC2EDq80_j" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="700" pragmaType="inline" parentfunction="xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="701" pragmaType="dependence" parentfunction="xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()" class="" direction="NODIR" type="inter" distance="0" variable="val2"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="702" pragmaType="dependence" parentfunction="xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()" class="" direction="NODIR" type="intra" distance="0" variable="val3"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="731" pragmaType="bind_storage" parentfunction="xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()" op="666" impl="25" latency="-1" variable="val4"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="755" pragmaType="array_partition" parentfunction="xf::cv::LineBuffer<3, 240, ap_uint<80>, (_ramtype)6, 1>::LineBuffer()" dim="1" factor="0" mode="complete" dynamic="0" variable="val5"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<82, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<82>::ap_int<82, true>(ap_int_base<82, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<10, false>::RType<($_0)32, true>::mult operator*<10, false>(ap_int_base<10, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::operator long long() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::RType<80, false>::arg1 operator<<<80, false>(ap_int_base<80, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::RType<($_0)32, true>::plus operator+<80, false>(ap_int_base<80, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<80>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi82ELb1EEC2EDq82_i" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="515" pragmaType="inline" parentfunction="ssdm_int<32, true>::ssdm_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<80>::ap_uint<80, false>(ap_int_base<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="37" pragmaType="unroll" parentfunction="sobelConvolve" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="40" pragmaType="unroll" parentfunction="sobelConvolve" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="28" pragmaType="array_partition" parentfunction="sobelConvolve" dim="0" factor="0" mode="complete" dynamic="0" variable="_ZL6kernel"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<10, false>::RType<32, true>::mult operator*<10, false, 32, true>(ap_int_base<10, false> const&, ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base<10, false>(ap_int_base<10, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<42>::ap_int<42, true>(ap_int_base<42, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi42ELb1EEC2EDq42_i" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::operator++(int)" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="113" pragmaType="unroll" parentfunction="shift_register" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="116" pragmaType="unroll" parentfunction="shift_register" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="90" pragmaType="unroll" parentfunction="shift_register" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="96" pragmaType="unroll" parentfunction="shift_register" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="99" pragmaType="unroll" parentfunction="shift_register" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="55" pragmaType="array_partition" parentfunction="shift_register" dim="0" factor="0" mode="complete" dynamic="0" variable="window"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="56" pragmaType="array_partition" parentfunction="shift_register" dim="0" factor="0" mode="complete" dynamic="0" variable="window_adjust"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="1016" pragmaType="inline" parentfunction="shift_up" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="898" pragmaType="inline" parentfunction="insert_bottom_row" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="981" pragmaType="inline" parentfunction="getval" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<10>::ap_uint<80, false>(ap_range_ref<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<10, false>::ap_int_base<80, false>(ap_range_ref<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<80, false>::ap_range_ref(ap_int_base<80, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="856" pragmaType="inline" parentfunction="shift_pixels_up" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp" line="869" pragmaType="unroll" parentfunction="shift_pixels_up" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool operator<<32, false>(ap_int_base<32, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::RType<($_0)32, true>::plus operator+<32, false>(ap_int_base<32, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<34, true>::operator long long() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::operator unsigned long long() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>& ap_int_base<32, false>::operator+=<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint<32, false>(ap_int_base<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi1ELb0EEC2EDq1_j" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::RType<32, true>::plus operator+<32, false, 32, true>(ap_int_base<32, false> const&, ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<34, true>::ap_int_base<32, false>(ap_int_base<32, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<34, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<34, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<34>::ap_int<34, true>(ap_int_base<34, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi34ELb1EEC2EDq34_i" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_int_base<32, false>::operator<<32, true>(ap_int_base<32, true> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<320, false>& ap_range_ref<320, false>::operator=<64, false>(ap_int_base<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="523" pragmaType="inline" parentfunction="ssdm_int<32, false>::ssdm_int(unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="136" pragmaType="pipeline" parentfunction="data_unpacket" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<80>::ap_uint<320, false>(ap_range_ref<320, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<80, false>::ap_int_base<320, false>(ap_range_ref<320, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<320, false>::ap_int_base<64, false>(ap_int_base<64, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi320ELb0EEC2EDq320_j" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<320, false>::ap_range_ref(ap_int_base<320, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<64>::ap_uint<320, false>(ap_range_ref<320, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<1>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<ap_uint<80>, 0>::stream()" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" line="523" pragmaType="inline" parentfunction="ssdm_int<8, false>::ssdm_int(unsigned char)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<64, false>::ap_int_base<320, false>(ap_range_ref<320, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<320, false>::ap_int_base<80, false>(ap_int_base<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="187" pragmaType="pipeline" parentfunction="image_filter" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="189" pragmaType="pipeline" parentfunction="image_filter" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="empty" off="0" region="0" recursive="0"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="226" pragmaType="interface" parentfunction="conv2d_3x3" mode="axis" port="data_in" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp" line="227" pragmaType="interface" parentfunction="conv2d_3x3" mode="axis" port="data_out" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/hls_task.h" line="90" pragmaType="inline" parentfunction="hls::task::task<void (&)(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<80>, 0>&), hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<80>, 0>&>(void (&)(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<80>, 0>&), hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<ap_uint<80>, 0>&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/leon/Extend/Vitis_HLS/2023.2/common/technology/autopilot/hls_task.h" line="90" pragmaType="inline" parentfunction="hls::task::task<void (&)(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&), hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&>(void (&)(hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&), hls::stream<ap_uint<80>, 0>&, hls::stream<ap_uint<80>, 0>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<320, false>& ap_range_ref<320, false>::operator=<80, false>(ap_int_base<80, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+</pragmas>

@@ -1,0 +1,384 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5539" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:759:47" msg_body="'factor' in '#pragma HLS array_reshape' is ignored">
+        <args ClangWarningOption="extra-tokens"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:112:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:172:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:212:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:244:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:260:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:287:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_pixel" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:320:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:359:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:392:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:425:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:437:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:464:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:497:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:530:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:542:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:579:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:592:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:605:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:618:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:631:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:644:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:657:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:670:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:683:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:700:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:701:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:702:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:711:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:716:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:721:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:726:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:731:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:736:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:741:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:746:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:755:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:759:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val factor=RESHAPE_FACTOR dim=1" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:813:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:826:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:856:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:869:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:898:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:931:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:964:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:970:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:981:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:992:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1004:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1016:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1028:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1040:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobelConvolve" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=kernel complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobelConvolve" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobelConvolve" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=window complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=window_adjust complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:90:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:96:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:113:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_register" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:130:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="data_unpacket" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="data_unpacket" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:155:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="data_packet" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:187:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_filter" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="conv2d_3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=conv2d_3x3" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:226:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="conv2d_3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port = data_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="conv2d_3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port = data_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:39" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::LineBuffer()' into '__cxx_global_var_init'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::LineBuffer()" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 698 Column 0" Caller="__cxx_global_var_init" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 19 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1018:2" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_pixels_up(int)' into 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_up(int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_pixels_up(int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 854 Column 0" Caller="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_up(int)" Caller-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 1014 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:60:17" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_up(int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::shift_up(int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 1014 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:61:17" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::insert_bottom_row(ap_uint&lt;80&gt;, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::insert_bottom_row(ap_uint&lt;80&gt;, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 896 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:93:82" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 979 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:93:51" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 979 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:92:34" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 979 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:91:58" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 979 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:91:35" msg_body="Inlining function 'xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)' into 'shift_register(ap_uint&lt;80&gt;, int, int)'">
+        <args Callee="xf::cv::LineBuffer&lt;3, 240, ap_uint&lt;80&gt;, (_ramtype)6, 1&gt;::getval(int, int)" Callee-DebugLoc="File /home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp Line 979 Column 0" Caller="shift_register(ap_uint&lt;80&gt;, int, int)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:188:20" msg_body="Loop 'VITIS_LOOP_188_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_188_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:111:27" msg_body="Loop 'VITIS_LOOP_111_4' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_111_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20" msg_body="Loop 'VITIS_LOOP_114_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_114_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:67:26" msg_body="Loop 'VITIS_LOOP_67_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_67_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30" msg_body="Loop 'VITIS_LOOP_94_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_94_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19" msg_body="Loop 'VITIS_LOOP_97_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_97_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:867:23" msg_body="Loop 'VITIS_LOOP_867_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_867_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:32:22" msg_body="Loop 'VITIS_LOOP_32_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_32_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26" msg_body="Loop 'VITIS_LOOP_35_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_35_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19" msg_body="Loop 'VITIS_LOOP_38_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_38_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:137:20" msg_body="Loop 'VITIS_LOOP_137_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_137_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:141:27" msg_body="Loop 'VITIS_LOOP_141_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_141_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_111_4' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:111:27) in function 'shift_register' completely with a factor of 3">
+        <args Factor="3" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:111:27" LoopName="VITIS_LOOP_111_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_114_5' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20) in function 'shift_register' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:114:20" LoopName="VITIS_LOOP_114_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_67_1' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:67:26) in function 'shift_register' completely with a factor of 3">
+        <args Factor="3" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:67:26" LoopName="VITIS_LOOP_67_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_94_2' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30) in function 'shift_register' completely with a factor of 3">
+        <args Factor="3" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:94:30" LoopName="VITIS_LOOP_94_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_97_3' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19) in function 'shift_register' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:97:19" LoopName="VITIS_LOOP_97_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:54:0" msg_body="Unrolling loop 'VITIS_LOOP_867_1' (/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:867:23) in function 'shift_register' completely with a factor of 2">
+        <args Factor="2" LoopLoc="/home/leon/Desktop/Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:867:23" LoopName="VITIS_LOOP_867_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:27:0" msg_body="Unrolling loop 'VITIS_LOOP_32_1' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:32:22) in function 'sobelConvolve' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:32:22" LoopName="VITIS_LOOP_32_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:27:0" msg_body="Unrolling loop 'VITIS_LOOP_35_2' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26) in function 'sobelConvolve' completely with a factor of 3">
+        <args Factor="3" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:35:26" LoopName="VITIS_LOOP_35_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:27:0" msg_body="Unrolling loop 'VITIS_LOOP_38_3' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19) in function 'sobelConvolve' completely with a factor of 3">
+        <args Factor="3" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:38:19" LoopName="VITIS_LOOP_38_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:129:0" msg_body="Unrolling loop 'VITIS_LOOP_137_2' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:137:20) in function 'data_unpacket' completely with a factor of 5">
+        <args Factor="5" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:137:20" LoopName="VITIS_LOOP_137_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:129:0" msg_body="Unrolling loop 'VITIS_LOOP_141_3' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:141:27) in function 'data_unpacket' completely with a factor of 4">
+        <args Factor="4" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:141:27" LoopName="VITIS_LOOP_141_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:21:0" msg_body="Applying array_partition to 'window_adjust': Complete partitioning on dimension 1. Complete partitioning on dimension 2. Complete partitioning on dimension 3.">
+        <args Dim="islist 1 2 3" Mode="islist Complete Complete Complete" UOName="window_adjust"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:22:0" msg_body="Applying array_partition to 'window': Complete partitioning on dimension 1. Complete partitioning on dimension 2. Complete partitioning on dimension 3.">
+        <args Dim="islist 1 2 3" Mode="islist Complete Complete Complete" UOName="window"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:192:28" msg_body="Automatically inlining function 'shift_register(ap_uint&lt;80&gt;, int, int) (.3)' to improve effectiveness of pipeline pragma in function 'image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)'">
+        <args Callee="shift_register(ap_uint&lt;80&gt;, int, int) (.3)" Callee-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0" Caller="image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 182 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:202:26" msg_body="Automatically inlining function 'shift_register(ap_uint&lt;80&gt;, int, int) (.3)' to improve effectiveness of pipeline pragma in function 'image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)'">
+        <args Callee="shift_register(ap_uint&lt;80&gt;, int, int) (.3)" Callee-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 54 Column 0" Caller="image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 182 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:125:12" msg_body="Automatically inlining function 'sobelConvolve() (.6)' to improve effectiveness of pipeline pragma in function 'image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)'">
+        <args Callee="sobelConvolve() (.6)" Callee-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 27 Column 0" Caller="image_filter(hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;80&gt;, 0&gt;&amp;)" Caller-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 182 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:161:27" msg_body="Loop 'VITIS_LOOP_161_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_161_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:167:27" msg_body="Loop 'VITIS_LOOP_167_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_167_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:154:0" msg_body="Unrolling loop 'VITIS_LOOP_161_2' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:161:27) in function 'data_packet' completely with a factor of 4">
+        <args Factor="4" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:161:27" LoopName="VITIS_LOOP_161_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:154:0" msg_body="Unrolling loop 'VITIS_LOOP_167_3' (/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:167:27) in function 'data_packet' completely with a factor of 5">
+        <args Factor="5" LoopLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:167:27" LoopName="VITIS_LOOP_167_3"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0" msg_body="array_partition dim=1 type=complete  variable=linebuf 1 conv2d_3x3 /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0 /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9linebuf">
+        <args PragmaFunction="conv2d_3x3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=linebuf" PragmaSrcLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9" PragmaSrcLoc-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 189 Column 9" PragmaType="array_partition" VarName="linebuf" varLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'linebuf' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="linebuf" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0" msg_body="array_partition dim=2 type=cyclic factor=2 variable=linebuf 1 conv2d_3x3 /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0 /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9linebuf">
+        <args PragmaFunction="conv2d_3x3" PragmaIsAuto="1" PragmaOptions="dim=2 type=cyclic factor=2 variable=linebuf" PragmaSrcLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9" PragmaSrcLoc-DebugLoc="File /home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp Line 189 Column 9" PragmaType="array_partition" VarName="linebuf" varLoc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'linebuf' due to pipeline pragma">
+        <args Dim="2" Factor="2" Mode="cyclic" Name="linebuf" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:19:0" msg_body="Applying array_partition to 'linebuf': Complete partitioning on dimension 1. Cyclic partitioning with factor 2 on dimension 2.">
+        <args Dim="islist 1 2" Factor="2" Mode="islist Complete Cyclic" UOName="linebuf"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

@@ -1,0 +1,1050 @@
+<profile>
+    <ReportVersion>
+        <Version>2023.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynquplus</ProductFamily>
+        <Part>xczu1cg-sbva484-1-e</Part>
+        <TopModelName>conv2d_3x3</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>dataflow</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>6.305</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>undef</Best-caseLatency>
+            <Average-caseLatency>undef</Average-caseLatency>
+            <Worst-caseLatency>undef</Worst-caseLatency>
+            <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+            <DataflowPipelineThroughput>undef</DataflowPipelineThroughput>
+            <Interval-min>undef</Interval-min>
+            <Interval-max>undef</Interval-max>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:224</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>30</BRAM_18K>
+            <FF>3194</FF>
+            <LUT>8490</LUT>
+            <URAM>0</URAM>
+            <DSP>0</DSP>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>216</BRAM_18K>
+            <DSP>216</DSP>
+            <FF>74880</FF>
+            <LUT>37440</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>data_in_TDATA</name>
+            <Object>data_in_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_in_TKEEP</name>
+            <Object>data_in_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>8</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_in_TSTRB</name>
+            <Object>data_in_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>8</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_in_TLAST</name>
+            <Object>data_in_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_in_TVALID</name>
+            <Object>data_in_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_in_TREADY</name>
+            <Object>data_in_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TDATA</name>
+            <Object>data_out_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TKEEP</name>
+            <Object>data_out_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TSTRB</name>
+            <Object>data_out_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TLAST</name>
+            <Object>data_out_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TVALID</name>
+            <Object>data_out_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>data_out_TREADY</name>
+            <Object>data_out_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>conv2d_3x3</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>conv2d_3x3</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="5">
+            <ModuleName>conv2d_3x3</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>data_unpacket_U0</InstName>
+                    <ModuleName>data_unpacket</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>184</ID>
+                    <BindInstances>output_cnt_10_fu_189_p2 output_cnt_11_fu_223_p2 output_cnt_12_fu_258_p2 output_cnt_13_fu_289_p2 i_3_fu_296_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>image_filter_U0</InstName>
+                    <ModuleName>image_filter</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>197</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_image_filter_Pipeline_VITIS_LOOP_188_2_fu_159</InstName>
+                            <ModuleName>image_filter_Pipeline_VITIS_LOOP_188_2</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>159</ID>
+                            <BindInstances>col_assign_3_fu_1121_p2 col_assign_2_fu_1142_p2 tmp184_fu_4195_p2 sub_ln41_31_fu_4225_p2 add_ln44_15_fu_4259_p2 add_ln41_32_fu_4265_p2 tmp187_fu_2019_p2 sub_ln41_33_fu_2049_p2 add_ln44_16_fu_2083_p2 add_ln41_34_fu_2089_p2 tmp190_fu_2171_p2 sub_ln41_35_fu_2201_p2 add_ln44_17_fu_2235_p2 add_ln41_36_fu_2241_p2 tmp193_fu_2323_p2 sub_ln41_37_fu_2353_p2 add_ln44_18_fu_2387_p2 add_ln41_38_fu_2393_p2 tmp196_fu_2475_p2 sub_ln41_39_fu_2505_p2 add_ln44_19_fu_2539_p2 add_ln41_40_fu_2545_p2 tmp199_fu_2627_p2 sub_ln41_41_fu_2657_p2 add_ln44_20_fu_2691_p2 add_ln41_42_fu_2697_p2 tmp202_fu_2779_p2 sub_ln41_43_fu_2809_p2 add_ln44_21_fu_2843_p2 add_ln41_44_fu_2849_p2 tmp205_fu_2931_p2 sub_ln41_45_fu_2961_p2 add_ln44_22_fu_2995_p2 add_ln41_46_fu_3001_p2 grp_fu_577_p2 col_assign_1_fu_1065_p2 col_assign_fu_1086_p2 tmp_fu_4361_p2 sub_ln41_fu_4391_p2 add_ln44_fu_4425_p2 add_ln41_16_fu_4431_p2 tmp163_fu_3131_p2 sub_ln41_17_fu_3161_p2 add_ln44_8_fu_3195_p2 add_ln41_18_fu_3201_p2 tmp166_fu_3283_p2 sub_ln41_19_fu_3313_p2 add_ln44_9_fu_3347_p2 add_ln41_20_fu_3353_p2 tmp169_fu_3435_p2 sub_ln41_21_fu_3465_p2 add_ln44_10_fu_3499_p2 add_ln41_22_fu_3505_p2 tmp172_fu_3587_p2 sub_ln41_23_fu_3617_p2 add_ln44_11_fu_3651_p2 add_ln41_24_fu_3657_p2 tmp175_fu_3739_p2 sub_ln41_25_fu_3769_p2 add_ln44_12_fu_3803_p2 add_ln41_26_fu_3809_p2 tmp178_fu_3891_p2 sub_ln41_27_fu_3921_p2 add_ln44_13_fu_3955_p2 add_ln41_28_fu_3961_p2 tmp181_fu_4043_p2 sub_ln41_29_fu_4073_p2 add_ln44_14_fu_4107_p2 add_ln41_30_fu_4113_p2 grp_fu_577_p2</BindInstances>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_shift_register_fu_278</InstName>
+                            <ModuleName>shift_register</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>278</ID>
+                            <InstancesList>
+                                <Instance>
+                                    <InstName>tmp_sobelConvolve_fu_242</InstName>
+                                    <ModuleName>sobelConvolve</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>242</ID>
+                                    <BindInstances>tmp_i_fu_162_p2 sub_ln41_fu_192_p2 add_ln44_fu_230_p2 add_ln41_1_fu_236_p2 tmp83_i_fu_338_p2 sub_ln41_2_fu_368_p2 add_ln44_1_fu_406_p2 add_ln41_3_fu_412_p2 tmp86_i_fu_514_p2 sub_ln41_4_fu_544_p2 add_ln44_2_fu_582_p2 add_ln41_5_fu_588_p2 tmp89_i_fu_690_p2 sub_ln41_6_fu_720_p2 add_ln44_3_fu_758_p2 add_ln41_7_fu_764_p2 tmp92_i_fu_866_p2 sub_ln41_8_fu_896_p2 add_ln44_4_fu_934_p2 add_ln41_9_fu_940_p2 tmp95_i_fu_1042_p2 sub_ln41_10_fu_1072_p2 add_ln44_5_fu_1110_p2 add_ln41_11_fu_1116_p2 tmp98_i_fu_1218_p2 sub_ln41_12_fu_1248_p2 add_ln44_6_fu_1286_p2 add_ln41_13_fu_1292_p2 tmp101_i_fu_1394_p2 sub_ln41_14_fu_1424_p2 add_ln44_7_fu_1462_p2 add_ln41_15_fu_1468_p2</BindInstances>
+                                </Instance>
+                            </InstancesList>
+                        </Instance>
+                    </InstancesList>
+                    <BindInstances>row_3_fu_415_p2 linebuf_0_0_U linebuf_1_0_U linebuf_2_0_U linebuf_1_1_U linebuf_2_1_U linebuf_0_1_U</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>data_packet_U0</InstName>
+                    <ModuleName>data_packet</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>311</ID>
+                    <BindInstances>output_addr_12_fu_200_p2 output_addr_13_fu_234_p2 output_addr_14_fu_276_p2 output_addr_15_fu_318_p2 output_addr_16_fu_366_p2 i_5_fu_206_p2</BindInstances>
+                </Instance>
+            </InstancesList>
+            <BindInstances>input_r_U output_r_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>data_unpacket</Name>
+            <Loops>
+                <VITIS_LOOP_134_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>3.167</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>324002</Best-caseLatency>
+                    <Average-caseLatency>324002</Average-caseLatency>
+                    <Worst-caseLatency>324002</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>3.240 ms</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>3.240 ms</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>3.240 ms</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>324002</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_134_1>
+                        <Name>VITIS_LOOP_134_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>64800</TripCount>
+                        <Latency>324000</Latency>
+                        <AbsoluteTimeLatency>3.240 ms</AbsoluteTimeLatency>
+                        <PipelineII>5</PipelineII>
+                        <PipelineDepth>5</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </VITIS_LOOP_134_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:134</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_134_1>
+                            <Name>VITIS_LOOP_134_1</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:134</SourceLocation>
+                        </VITIS_LOOP_134_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>401</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>582</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_134_1" OPTYPE="add" PRAGMA="" RTLNAME="output_cnt_10_fu_189_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="output_cnt_10"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_134_1" OPTYPE="add" PRAGMA="" RTLNAME="output_cnt_11_fu_223_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="output_cnt_11"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_134_1" OPTYPE="add" PRAGMA="" RTLNAME="output_cnt_12_fu_258_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="output_cnt_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_134_1" OPTYPE="add" PRAGMA="" RTLNAME="output_cnt_13_fu_289_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="output_cnt_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_134_1" OPTYPE="add" PRAGMA="" RTLNAME="i_3_fu_296_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:134" STORAGESUBTYPE="" URAM="0" VARIABLE="i_3"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>image_filter_Pipeline_VITIS_LOOP_188_2</Name>
+            <Loops>
+                <VITIS_LOOP_188_2/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>6.305</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_188_2>
+                        <Name>VITIS_LOOP_188_2</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>7</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </VITIS_LOOP_188_2>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:184</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_188_2>
+                            <Name>VITIS_LOOP_188_2</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189</SourceLocation>
+                        </VITIS_LOOP_188_2>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>1676</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>4256</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>11</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="col_assign_3_fu_1121_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="col_assign_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="col_assign_2_fu_1142_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="col_assign_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp184_fu_4195_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp184"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_31_fu_4225_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_31"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_15_fu_4259_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_15"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_32_fu_4265_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_32"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp187_fu_2019_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp187"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_33_fu_2049_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_33"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_16_fu_2083_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_16"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_34_fu_2089_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_34"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp190_fu_2171_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp190"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_35_fu_2201_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_35"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_17_fu_2235_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_17"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_36_fu_2241_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_36"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp193_fu_2323_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp193"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_37_fu_2353_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_37"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_18_fu_2387_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_18"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_38_fu_2393_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_38"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp196_fu_2475_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp196"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_39_fu_2505_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_39"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_19_fu_2539_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_19"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_40_fu_2545_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_40"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp199_fu_2627_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp199"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_41_fu_2657_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_41"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_20_fu_2691_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_20"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_42_fu_2697_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_42"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp202_fu_2779_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp202"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_43_fu_2809_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_43"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_21_fu_2843_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_21"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_44_fu_2849_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_44"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp205_fu_2931_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp205"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_45_fu_2961_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_45"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_22_fu_2995_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_22"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_46_fu_3001_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_46"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_577_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:207" STORAGESUBTYPE="" URAM="0" VARIABLE="col_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="col_assign_1_fu_1065_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="col_assign_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="col_assign_fu_1086_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="col_assign"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp_fu_4361_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_fu_4391_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_fu_4425_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_16_fu_4431_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_16"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp163_fu_3131_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp163"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_17_fu_3161_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_17"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_8_fu_3195_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_8"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_18_fu_3201_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_18"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp166_fu_3283_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp166"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_19_fu_3313_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_19"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_9_fu_3347_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_9"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_20_fu_3353_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_20"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp169_fu_3435_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp169"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_21_fu_3465_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_21"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_10_fu_3499_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_10"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_22_fu_3505_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_22"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp172_fu_3587_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp172"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_23_fu_3617_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_23"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_11_fu_3651_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_11"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_24_fu_3657_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_24"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp175_fu_3739_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp175"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_25_fu_3769_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_25"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_12_fu_3803_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_26_fu_3809_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_26"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp178_fu_3891_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp178"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_27_fu_3921_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_27"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_13_fu_3955_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_28_fu_3961_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_28"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="tmp181_fu_4043_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp181"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_29_fu_4073_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_29"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_14_fu_4107_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_14"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_30_fu_4113_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_30"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_188_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_577_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:197" STORAGESUBTYPE="" URAM="0" VARIABLE="col_4"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>sobelConvolve</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.138</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>1056</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>2</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp_i_fu_162_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_fu_192_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_fu_230_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_1_fu_236_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp83_i_fu_338_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp83_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_2_fu_368_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_1_fu_406_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_3_fu_412_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp86_i_fu_514_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp86_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_4_fu_544_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_2_fu_582_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_5_fu_588_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp89_i_fu_690_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp89_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_6_fu_720_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_6"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_3_fu_758_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_7_fu_764_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_7"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp92_i_fu_866_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp92_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_8_fu_896_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_8"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_4_fu_934_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_9_fu_940_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_9"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp95_i_fu_1042_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp95_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_10_fu_1072_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_10"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_5_fu_1110_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_11_fu_1116_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_11"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp98_i_fu_1218_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp98_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_12_fu_1248_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_6_fu_1286_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_6"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_13_fu_1292_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="tmp101_i_fu_1394_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp101_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_14_fu_1424_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41_14"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln44_7_fu_1462_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln44_7"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_15_fu_1468_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41_15"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>shift_register</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.138</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>20.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>20.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>20.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:91</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>15</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>1720</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>4</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>image_filter</Name>
+            <Loops>
+                <VITIS_LOOP_186_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.305</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_186_1>
+                        <Name>VITIS_LOOP_186_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>1081</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <IterationLatency>undef</IterationLatency>
+                        <PipelineDepth>undef</PipelineDepth>
+                        <PipelineType>no</PipelineType>
+                        <InstanceList>
+                            <Instance>grp_image_filter_Pipeline_VITIS_LOOP_188_2_fu_159</Instance>
+                            <Instance>grp_shift_register_fu_278</Instance>
+                        </InstanceList>
+                    </VITIS_LOOP_186_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:183</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_186_1>
+                            <Name>VITIS_LOOP_186_1</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219</SourceLocation>
+                        </VITIS_LOOP_186_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>30</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>13</UTIL_BRAM>
+                    <FF>2193</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>6838</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>18</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_186_1" OPTYPE="add" PRAGMA="" RTLNAME="row_3_fu_415_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:219" STORAGESUBTYPE="" URAM="0" VARIABLE="row_3"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_0_0_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_0_0"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_1_0_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_1_0"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_2_0_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_2_0"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_1_1_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_1_1"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_2_1_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_2_1"/>
+                <BindNode BINDTYPE="storage" BRAM="5" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="linebuf_0_1_U" SOURCE="" STORAGESIZE="80 120 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p" URAM="0" VARIABLE="linebuf_0_1"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>data_packet</Name>
+            <Loops>
+                <VITIS_LOOP_159_1/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>3.167</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>324003</Best-caseLatency>
+                    <Average-caseLatency>324003</Average-caseLatency>
+                    <Worst-caseLatency>324003</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>3.240 ms</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>3.240 ms</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>3.240 ms</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>324003</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_159_1>
+                        <Name>VITIS_LOOP_159_1</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>64800</TripCount>
+                        <Latency>324001</Latency>
+                        <AbsoluteTimeLatency>3.240 ms</AbsoluteTimeLatency>
+                        <PipelineII>5</PipelineII>
+                        <PipelineDepth>7</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </VITIS_LOOP_159_1>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:159</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_159_1>
+                            <Name>VITIS_LOOP_159_1</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:159</SourceLocation>
+                        </VITIS_LOOP_159_1>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>402</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>940</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>2</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="output_addr_12_fu_200_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:175" STORAGESUBTYPE="" URAM="0" VARIABLE="output_addr_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="output_addr_13_fu_234_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:175" STORAGESUBTYPE="" URAM="0" VARIABLE="output_addr_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="output_addr_14_fu_276_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:175" STORAGESUBTYPE="" URAM="0" VARIABLE="output_addr_14"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="output_addr_15_fu_318_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:175" STORAGESUBTYPE="" URAM="0" VARIABLE="output_addr_15"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="output_addr_16_fu_366_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:175" STORAGESUBTYPE="" URAM="0" VARIABLE="output_addr_16"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_159_1" OPTYPE="add" PRAGMA="" RTLNAME="i_5_fu_206_p2" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:159" STORAGESUBTYPE="" URAM="0" VARIABLE="i_5"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>conv2d_3x3</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.305</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <DataflowPipelineThroughput>undef</DataflowPipelineThroughput>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>dataflow</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:224</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>30</BRAM_18K>
+                    <AVAIL_BRAM>216</AVAIL_BRAM>
+                    <UTIL_BRAM>13</UTIL_BRAM>
+                    <FF>3194</FF>
+                    <AVAIL_FF>74880</AVAIL_FF>
+                    <UTIL_FF>4</UTIL_FF>
+                    <LUT>8494</LUT>
+                    <AVAIL_LUT>37440</AVAIL_LUT>
+                    <UTIL_LUT>22</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="input_r_U" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:229" STORAGESIZE="80 2 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="input_r"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_r_U" SOURCE="/home/leon/Desktop/Project/ZUBOARD_1CG/hls_ip/conv2d_hls.cpp:229" STORAGESIZE="80 2 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="output_r"/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation>
+        <FIFOInst>
+            <Name>input_r_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>output_r_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+    </FIFOInformation>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="data_in" index="0" direction="in" srcType="stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0, 0, 0, '8', false&gt;, 0&gt;&amp;" srcSize="128">
+            <hwRefs>
+                <hwRef type="interface" interface="data_in" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="data_out" index="1" direction="out" srcType="stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0, 0, 0, '8', false&gt;, 0&gt;&amp;" srcSize="128">
+            <hwRefs>
+                <hwRef type="interface" interface="data_out" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="data_in" type="axi4stream" busTypeName="axis" mode="slave" dataWidth="64" portPrefix="data_in_">
+            <ports>
+                <port>data_in_TDATA</port>
+                <port>data_in_TKEEP</port>
+                <port>data_in_TLAST</port>
+                <port>data_in_TREADY</port>
+                <port>data_in_TSTRB</port>
+                <port>data_in_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="0" register_mode="both" argName="data_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="data_out" type="axi4stream" busTypeName="axis" mode="master" dataWidth="64" portPrefix="data_out_">
+            <ports>
+                <port>data_out_TDATA</port>
+                <port>data_out_TKEEP</port>
+                <port>data_out_TLAST</port>
+                <port>data_out_TREADY</port>
+                <port>data_out_TSTRB</port>
+                <port>data_out_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="0" register_mode="both" argName="data_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">data_in:data_out</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="AXIS">
+                <table>
+                    <keys size="9">Interface, Direction, Register Mode, TDATA, TKEEP, TLAST, TREADY, TSTRB, TVALID</keys>
+                    <column name="data_in">in, both, 64, 8, 1, 1, 8, 1</column>
+                    <column name="data_out">out, both, 64, 8, 1, 1, 8, 1</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="ap_ctrl">ap_ctrl_none, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="data_in">in, stream&lt;hls::axis&lt;ap_uint&lt;64&gt; 0 0 0 '8' false&gt; 0&gt;&amp;</column>
+                    <column name="data_out">out, stream&lt;hls::axis&lt;ap_uint&lt;64&gt; 0 0 0 '8' false&gt; 0&gt;&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="3">Argument, HW Interface, HW Type</keys>
+                    <column name="data_in">data_in, interface</column>
+                    <column name="data_out">data_out, interface</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <ReportBurst>
+        <section name="M_AXI Burst Information" level="0" HEADER_NOTE="Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings."/>
+    </ReportBurst>
+    <PragmaReport>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:46" status="valid" parentFunction="window&lt;rows, cols, t&gt;" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:47" status="valid" parentFunction="window&lt;rows, cols, t&gt;" variable="val" isDirective="0" options="variable=val dim=1 complete"/>
+        <Pragma type="array_partition" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:48" status="valid" parentFunction="window&lt;rows, cols, t&gt;" variable="val" isDirective="0" options="variable=val dim=2 complete"/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:112" status="valid" parentFunction="shift_pixels_left" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:124" status="valid" parentFunction="shift_pixels_left" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:128" status="valid" parentFunction="shift_pixels_left" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:156" status="valid" parentFunction="shift_pixels_right" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:168" status="valid" parentFunction="shift_pixels_right" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:172" status="valid" parentFunction="shift_pixels_right" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:200" status="valid" parentFunction="shift_pixels_up" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:212" status="valid" parentFunction="shift_pixels_up" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:216" status="valid" parentFunction="shift_pixels_up" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:244" status="valid" parentFunction="shift_pixels_down" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:256" status="valid" parentFunction="shift_pixels_down" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:260" status="valid" parentFunction="shift_pixels_down" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:287" status="valid" parentFunction="insert_pixel" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:320" status="valid" parentFunction="insert_row" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:332" status="valid" parentFunction="insert_row" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:359" status="valid" parentFunction="insert_top_row" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:392" status="valid" parentFunction="insert_bottom_row" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:425" status="valid" parentFunction="insert_col" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:437" status="valid" parentFunction="insert_col" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:464" status="valid" parentFunction="insert_left_col" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:497" status="valid" parentFunction="insert_right_col" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:530" status="valid" parentFunction="getval" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:542" status="valid" parentFunction="operator()" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:579" status="valid" parentFunction="shift_left" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:592" status="valid" parentFunction="shift_right" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:605" status="valid" parentFunction="shift_up" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:618" status="valid" parentFunction="shift_down" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:631" status="valid" parentFunction="insert" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:644" status="valid" parentFunction="insert_top" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:657" status="valid" parentFunction="insert_bottom" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:670" status="valid" parentFunction="insert_left" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:683" status="valid" parentFunction="insert_right" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:700" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="" isDirective="0" options=""/>
+        <Pragma type="dependence" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:701" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val inter false"/>
+        <Pragma type="dependence" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:702" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val intra false"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:711" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_1P impl=BRAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:716" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_1P impl=URAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:721" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_2P impl=BRAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:726" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_2P impl=URAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:731" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_S2P impl=BRAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:736" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_S2P impl=URAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:741" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_T2P impl=BRAM"/>
+        <Pragma type="bind_storage" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:746" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val type=RAM_T2P impl=URAM"/>
+        <Pragma type="array_partition" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:755" status="valid" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val complete dim=1"/>
+        <Pragma type="array_reshape" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:759" status="warning" parentFunction="linebuffer&lt;rows, cols, t, mem_type, reshape_factor&gt;" variable="val" isDirective="0" options="variable=val factor=RESHAPE_FACTOR dim=1">
+            <Msg msg_id="207-5539" msg_severity="WARNING" msg_body="'factor' in '#pragma HLS array_reshape' is ignored"/>
+        </Pragma>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:813" status="valid" parentFunction="shift_pixels_down" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:826" status="valid" parentFunction="shift_pixels_down" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:856" status="valid" parentFunction="shift_pixels_up" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:869" status="valid" parentFunction="shift_pixels_up" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:898" status="valid" parentFunction="insert_bottom_row" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:931" status="valid" parentFunction="insert_top_row" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:964" status="valid" parentFunction="get_col" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:970" status="valid" parentFunction="get_col" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:981" status="valid" parentFunction="getval" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:992" status="valid" parentFunction="operator()" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1004" status="valid" parentFunction="shift_down" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1016" status="valid" parentFunction="shift_up" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1028" status="valid" parentFunction="insert_bottom" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../Vitis_Libraries/vision/L1/include/common/xf_video_mem.hpp:1040" status="valid" parentFunction="insert_top" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="conv2d_hls.cpp:28" status="valid" parentFunction="sobelconvolve" variable="kernel" isDirective="0" options="variable=kernel complete dim=0"/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:37" status="valid" parentFunction="sobelconvolve" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:40" status="valid" parentFunction="sobelconvolve" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="conv2d_hls.cpp:55" status="valid" parentFunction="shift_register" variable="window" isDirective="0" options="variable=window complete dim=0"/>
+        <Pragma type="array_partition" location="conv2d_hls.cpp:56" status="valid" parentFunction="shift_register" variable="window_adjust" isDirective="0" options="variable=window_adjust complete dim=0"/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:90" status="valid" parentFunction="shift_register" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:96" status="valid" parentFunction="shift_register" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:99" status="valid" parentFunction="shift_register" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:113" status="valid" parentFunction="shift_register" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="conv2d_hls.cpp:116" status="valid" parentFunction="shift_register" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="conv2d_hls.cpp:130" status="valid" parentFunction="data_unpacket" variable="stream" isDirective="0" options="axis port=stream"/>
+        <Pragma type="pipeline" location="conv2d_hls.cpp:136" status="valid" parentFunction="data_unpacket" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="conv2d_hls.cpp:155" status="valid" parentFunction="data_packet" variable="stream" isDirective="0" options="axis port=stream"/>
+        <Pragma type="pipeline" location="conv2d_hls.cpp:187" status="valid" parentFunction="image_filter" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="conv2d_hls.cpp:189" status="valid" parentFunction="image_filter" variable="" isDirective="0" options="II = 1"/>
+        <Pragma type="interface" location="conv2d_hls.cpp:226" status="valid" parentFunction="conv2d_3x3" variable="" isDirective="0" options="axis port = data_in"/>
+        <Pragma type="interface" location="conv2d_hls.cpp:227" status="valid" parentFunction="conv2d_3x3" variable="" isDirective="0" options="axis port = data_out"/>
+    </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="array_partition" parentFunction="conv2d_3x3" options="dim=1 type=complete  variable=linebuf" pragmaLocId="conv2d_hls.cpp:19:0" srcPragmaType="pipeline" srcPragmaLoc="conv2d_hls.cpp:189" srcPragmaSource="pragma" srcIsDirective="0" variable="linebuf" varLoc=""/>
+    </AutoPragmaReport>
+</profile>
+

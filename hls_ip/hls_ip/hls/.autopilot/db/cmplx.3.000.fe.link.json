@@ -1,0 +1,165 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 224,
+    "instructions": 35,
+    "name": "conv2d_3x3",
+    "total_instructions": 52
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "11",
+    "file": "conv2d_hls.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 2,
+    "name": "",
+    "total_instructions": 14
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "8",
+    "file": "xf_video_mem.hpp",
+    "fileloc": 1014,
+    "instructions": 2,
+    "name": "shift_up",
+    "total_instructions": 240
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "2",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 19,
+    "instructions": 2,
+    "name": "__cxx_global_var_init",
+    "total_instructions": 12
+  },
+  "12": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "xf_video_mem.hpp",
+    "fileloc": 896,
+    "instructions": 13,
+    "loads": {
+      "L": 1
+    },
+    "name": "insert_bottom_row",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 13
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "xf_video_mem.hpp",
+    "fileloc": 698,
+    "instructions": 10,
+    "name": "LineBuffer",
+    "total_instructions": 10
+  },
+  "3": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 153,
+    "instructions": 107,
+    "loads": {
+      "L": 4
+    },
+    "name": "data_packet",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 291
+  },
+  "4": {
+    "basicblocks": 21,
+    "calls": "9 9 9",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 181,
+    "instructions": 74,
+    "loads": {
+      "L": 3
+    },
+    "name": "image_filter",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 3391
+  },
+  "5": {
+    "basicblocks": 24,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 26,
+    "instructions": 107,
+    "loads": {
+      "G": 5,
+      "L": 2
+    },
+    "name": "sobelConvolve",
+    "stores": {
+      "G": 4,
+      "L": 2
+    },
+    "total_instructions": 394
+  },
+  "6": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "xf_video_mem.hpp",
+    "fileloc": 979,
+    "instructions": 16,
+    "name": "getval",
+    "total_instructions": 16
+  },
+  "7": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 128,
+    "instructions": 79,
+    "loads": {
+      "L": 1
+    },
+    "name": "data_unpacket",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 220
+  },
+  "8": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "xf_video_mem.hpp",
+    "fileloc": 854,
+    "instructions": 51,
+    "loads": {
+      "L": 2
+    },
+    "name": "shift_pixels_up",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 238
+  },
+  "9": {
+    "basicblocks": 53,
+    "calls": "10 12 6 6 6 6 6 5",
+    "file": "conv2d_hls.cpp",
+    "fileloc": 53,
+    "instructions": 237,
+    "loads": {
+      "G": 3,
+      "L": 7
+    },
+    "name": "shift_register",
+    "stores": {
+      "G": 9,
+      "L": 1
+    },
+    "total_instructions": 1087
+  }
+}

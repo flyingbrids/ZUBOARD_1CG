@@ -1,0 +1,2 @@
+mb-ar qc libaxidma.a CMakeFiles/axidma.dir/xaxidma.c.obj CMakeFiles/axidma.dir/xaxidma_bd.c.obj CMakeFiles/axidma.dir/xaxidma_bdring.c.obj CMakeFiles/axidma.dir/xaxidma_g.c.obj CMakeFiles/axidma.dir/xaxidma_selftest.c.obj CMakeFiles/axidma.dir/xaxidma_sinit.c.obj
+/media/leon/Extend/Vitis/2023.2/gnu/microblaze/lin/bin/mb-ranlib libaxidma.a
